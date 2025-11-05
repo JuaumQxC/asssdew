@@ -1,0 +1,39 @@
+.forecast {
+  margin: 0;
+  padding: 0.3rem;
+  background-color: #eeeeee;
+}
+
+.forecast > h1,
+.clima {
+  margin: 0.5rem;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+}
+
+.clima {
+  background: right/contain content-box border-box no-repeat
+  url(./nuvens/sol.png) white;
+}
+
+.clima > h2,
+.clima > p {
+  margin: 0.2rem;
+  font-size: 1rem;
+}
+
+#imagem {
+  background: right/contain content-box border-box no-repeat
+  url(./nuvens/sol.png) white;
+}
+
+#imagem2 {
+  background: right/contain content-box border-box no-repeat
+  url(./nuvens/nuvem1.png) white;
+}
+
+#imagem3 {
+  background: right/contain content-box border-box no-repeat
+  url(./nuvens/nuvem2.png) white;
+}
+
